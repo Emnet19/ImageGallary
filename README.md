@@ -1,12 +1,58 @@
-# React + Vite
+# Image Gallary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📸 Image Gallary – Interactive Web-Based Gallery
+Personal Project | 2025
 
-Currently, two official plugins are available:
+Image Gallary is a responsive and category-based image browsing platform that allows users to search, filter, and preview images with a smooth and intuitive interface. Built with modern frontend tools, it showcases clean design and dynamic interaction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💬 "Browse by theme, search instantly, and view images in full – all in one visually engaging platform."
 
-## Expanding the ESLint configuration
+🌟 Core Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔍 Search & Filter  – Quickly find images by keyword or category
+
+🖼️ Category Buttons  – Filter images (e.g., Nature, Animals, People)
+
+✨ Hover Preview  – Zoom effect on hover
+
+🔎 Full View Modal  – Click to see high-res image in fullscreen
+
+📱 Responsive Layout – Works across desktop, tablet, and mobile
+
+🛠️ Tech Stack
+
+Frontend	Styling	State & Logic	Icons
+
+React	Tailwind CSS	useState, useEffect	React Icons
+
+📁 Project Structure
+bash
+Copy
+Edit
+src/
+
+├── pages/            # Home page layout
+
+├── App.jsx
+
+└── index.js
+
+
+🚀 How to Run Locally
+
+Clone the repository
+
+Run npm install
+
+Start the server with npm run dev
+
+Visit http://localhost:5173 in your browser
+
+🎯 Learning Highlights
+Built advanced search and filter system in React
+
+Applied responsive design principles with Tailwind CSS
+
+Gained experience in component structure and state management
+
+Created a clean and user-friendly UI for visual content
